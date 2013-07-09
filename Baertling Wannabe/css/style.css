@@ -14,8 +14,6 @@ section{
 .triangle{
 	position: absolute;
 	border-style: solid;
-	box-shadow: 10px 10px 10px 0 #000;
-
 	float: left;
 }
 .topleft{
@@ -39,3 +37,7 @@ section{
 	float: right;
 }
 
+.topleft:hover{
+	transition: 0.2s all;
+	box-shadow: 10px 10px 10px 0 #000;
+}
