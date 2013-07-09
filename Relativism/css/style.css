@@ -1,3 +1,6 @@
+*{
+	transition: 0.2s all;
+}
 body{
 	background: #BBC9C1;
 }
@@ -49,4 +52,8 @@ section{
 }
 .circle:nth-child(7){
 	left: 400px;
+}
+.circle:hover{
+	opacity: 0.5;
+	background: #ef22ef;
 }
