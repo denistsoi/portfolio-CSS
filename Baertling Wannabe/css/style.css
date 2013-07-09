@@ -2,31 +2,40 @@
 	margin: 0;
 }
 body{
-	background: yellow;
+	background: white;
 }
 section{
+	background: #bd1515;
 	position: relative;
 	margin: 0 auto;
-	/*height: 500px;*/
-/*	width: 600px;*/
+	height: 500px;
+	width: 500px;
 }
 .triangle{
 	position: absolute;
 	border-style: solid;
+	box-shadow: 10px 10px 10px 0 #000;
+
 	float: left;
 }
 .topleft{
-	border-width: 500px 300px 0 0;
+	border-width: 400px 300px 0 0;
 	border-color: #f59631 transparent transparent transparent;
-}
-.topright{
-	border-width: 0 500px 460px 0;
-	border-color: transparent #ff5100 transparent transparent;
-	float: right;
 	z-index: 2;
 }
-.bottom{
-	border-width: 200px 0 0 156px;
-	border-color: transparent transparent transparent #e82a10;
+/*.topright{
+	border-width: 0 300px 460px 0;
+	border-color: transparent #eb7b1a transparent transparent;
+	float: right;
+	left: 200px;
+	z-index: 2;
+	float: right;
+}*/
+.inner:nth-child(1){
+	border-width: 0 300px 460px 0;
+	border-color: transparent yellow transparent transparent;
+	float: right;
+	left: 200px;
+	float: right;
 }
 
