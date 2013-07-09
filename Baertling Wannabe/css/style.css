@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+}
+body{
+	background: yellow;
+}
+section{
+	position: relative;
+	margin: 0 auto;
+	/*height: 500px;*/
+/*	width: 600px;*/
+}
+.triangle{
+	position: absolute;
+	border-style: solid;
+	float: left;
+}
+.topleft{
+	border-width: 500px 300px 0 0;
+	border-color: #f59631 transparent transparent transparent;
+}
+.topright{
+	border-width: 0 500px 460px 0;
+	border-color: transparent #ff5100 transparent transparent;
+	float: right;
+	z-index: 2;
+}
+.bottom{
+	border-width: 200px 0 0 156px;
+	border-color: transparent transparent transparent #e82a10;
+}
+
