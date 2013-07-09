@@ -2,13 +2,13 @@
 	margin: 0;
 }
 body{
-	background: yellow;
+	background: white;
 }
 section{
 	position: relative;
 	margin: 0 auto;
-	/*height: 500px;*/
-/*	width: 600px;*/
+	height: 500px;
+	width: 600px;
 }
 .triangle{
 	position: absolute;
@@ -16,17 +16,55 @@ section{
 	float: left;
 }
 .topleft{
-	border-width: 500px 300px 0 0;
+	border-width: 400px 300px 0 0;
 	border-color: #f59631 transparent transparent transparent;
-}
-.topright{
-	border-width: 0 500px 460px 0;
-	border-color: transparent #ff5100 transparent transparent;
-	float: right;
-	z-index: 2;
+	z-index: 4;
 }
 .bottom{
-	border-width: 200px 0 0 156px;
-	border-color: transparent transparent transparent #e82a10;
+	background: #e82a10;
+	width: 500px;
+	height: 300px;
+	border:none;
+	top: 200px;
+	z-index: -1;
 }
+.bottom:nth-child(2){
+	border-width: 300px 0 0 500px;
+	border-color: transparent transparent transparent purple;
+	top: 200px;
+	background: #e82a10
+}
+.topright{
+	border-width: 0 300px 460px 0;
+	border-color: transparent #ff5100 transparent transparent;
+	float: right;
+	z-index: 4;
+	left:200px;
+}
+.topright:nth-child(3){
+	border-width: 0 400px 430px 0;
+	border-color: transparent yellow transparent transparent;
+	float: right;
+	left: 100px;
+	top: 10px;
+	z-index: 3;
+}
+.topright:nth-child(4){
+	border-width: 0px 400px 300px 0px;
+	border-color: transparent pink transparent transparent;
+	float: right;
+	left: 60px;
+	top: 100px;
+	z-index: 2;
+}
+.topright:nth-child(5){
+	border-width: 0 500px 300px 0;
+	border-color: transparent #330832 transparent transparent;
+	float: right;
+	left: 0px;
+	top: 150px;
+	z-index: 1;
+}
+
+
 
