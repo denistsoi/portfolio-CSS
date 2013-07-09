@@ -1,0 +1,52 @@
+body{
+	background: #BBC9C1;
+}
+h1,p{
+	font-family: 'Arimo', sans-serif;
+	color: white;
+	margin: 50px;
+}
+p{
+	margin: 5px 50px;
+}
+h1{
+	font-size: 60px;
+}
+section{
+	margin: 50px;
+	position: relative;
+	/* opacity and size */
+	height:240px;
+	width:640px;
+}
+.circle{
+	background: #000000;
+	border-radius: 120px;
+	float:left;
+	position: absolute;
+	/* opacity and size */
+	opacity: 0.4;
+	height:240px;
+	width:240px;
+}
+.circle:first{
+	left: 10px;
+}
+.circle:nth-child(2){
+	left: 80px;
+}
+.circle:nth-child(3){
+	left: 160px;
+}
+.circle:nth-child(4){
+	left: 220px;
+}
+.circle:nth-child(5){
+	left: 280px;
+}
+.circle:nth-child(6){
+	left: 340px;
+}
+.circle:nth-child(7){
+	left: 400px;
+}
