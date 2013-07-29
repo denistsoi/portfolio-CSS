@@ -1,3 +1,16 @@
+body{
+	background-image: url("../img/earth.jpeg");
+
+	background-position: center;
+	
+
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 p{
 	padding: 0px;
 	margin: 0;
@@ -38,14 +51,17 @@ background-color: #6C6;
 .hexagon:nth-child(3){
 width: 0;
 border-top: 90px solid #6C6;
-border-style: dashed;
+/*border-style: dashed;*/
 border-left: 150px solid transparent;
 border-right: 150px solid transparent;
 }
 /* Margins */
 .hexagon{
 	margin: 0 auto;
+	opacity: 0.2;
+	/*background: opacity(0.1);*/
 }
+
 section{
 	height: 400px;
 	width: 400px;
