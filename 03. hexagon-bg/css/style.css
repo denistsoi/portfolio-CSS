@@ -60,8 +60,6 @@ border-right: 150px solid transparent;
   height: 50px;
   background: #999;
   transform: rotate(45deg); /* Prefixes... */
-  /*top: 75px;*/
-  /*left: 25px;*/
   box-shadow: -1px -1px 10px -2px rgba(0,0,0,0.5);
 }
 .hexagon:nth-child(2){
@@ -79,8 +77,6 @@ border-right: 150px solid transparent;
 /* Margins */
 .hexagon{
 	margin: 0 auto;
-	/*opacity: 0.8;*/
-	/*background: opacity(0.1);*/
 }
 
 
