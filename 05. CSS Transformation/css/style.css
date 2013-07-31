@@ -1,0 +1,22 @@
+#stage{
+-webkit-perspective: 500px;
+}
+.face{
+-webkit-transform: rotate3d(-10,0,0,-45deg);
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+.face:first-child{
+background: rgba(255,102,255,0.7);
+}
+.face:nth-child(2){
+background: rgba(255,204,0,.7);
+}
+.face:nth-child(3){
+background: rgba(0,0,255,.7);
+}
