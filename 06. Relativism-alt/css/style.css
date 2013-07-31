@@ -54,14 +54,4 @@ section{
 .circle:nth-child(7){
 	left: 360px;
 }
-.circle:hover{
-	opacity: 0.3;
-	background: #ef22ef;
-	z-index: 1;
-}
-.circle:before, .circle:after{
-	opacity: 0.8;
-	background: #ef22ef;
-	z-index: 1;
-}
 
