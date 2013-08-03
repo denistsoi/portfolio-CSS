@@ -1,5 +1,8 @@
+
+
 $().ready(function(){
-	circle=$('.circle')
+	var $this=$(this);
+	circle=$('.circle');	
 	circle.hover(function(){
 		$(this).toggleClass('purple');
 	});
