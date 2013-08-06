@@ -14,4 +14,9 @@ $(document).ready(function(){
 	$(".face").hover(function(){
 		$(this).toggleClass('highlight');
 	})
+
+	var face=document.getElementsByClassName('face');
+	console.log(face.item());
+
+	
 });
