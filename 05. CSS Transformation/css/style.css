@@ -1,5 +1,15 @@
+body{
+	padding-top: 150px;
+}
+.highlight{
+	opacity: 0.2;
+}
 #stage{
+height: 400px;
+position: relative;
+margin: auto;
 -webkit-perspective: 500px;
+-webkit-transform-style: preserve-3d;
 }
 .face{
 -webkit-transform: rotate3d(-10,0,0,-45deg);

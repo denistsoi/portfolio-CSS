@@ -3,9 +3,15 @@ $(window).on('mousemove', function(event) {
     var mouseX = event.pageX - (width * 0.5);
     var height = $(window).height();
     var mouseY = event.pageY - (height * 0.5);
-    var xAngle = (mouseY / height) * 90;
-    var yAngle = (mouseX / width) * 90;
+    var xAngle = (mouseY / height) * 270;
+    var yAngle = (mouseX / width) * 180;
 
-    $('.cube')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
-    $('.cube-no-preserve')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+    $('#stage')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+    //$('.cube-no-preserve')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+});
+
+$(document).ready(function(){
+	$(".face").hover(function(){
+		$(this).toggleClass('highlight');
+	})
 });
