@@ -1,26 +1,9 @@
-/*
-declare variables
-*/
-
-
-
-
-/*
-01 document height and width
-*/
-
-
-
-
-
-/*
-02 mouse hover, toggle class, change color
-*/
-
-
-
-
-$(function(){
+$(document).ready(function(){
+	function xy(){
+		var a = document.width;
+		var b = document.height;
+		return a+' '+b;
+	}
 	console.log(xy());
 	var circle=$('.circle');	
 	
@@ -35,23 +18,18 @@ $(function(){
 		console.log(clickcount);
 		console.log('clicked');
 		circle.animate({
-			top: $this.position().top + 100
+			top: $this.position().top+100
 		}).animate({
-			left: (document.width/2)-240
+			left: (document.width/2)-120
 		})
 		$this.animate({
-			top: $this.position().top - 60
+			top: $this.position().top-30
 		})
 	});
-
 	/*function backgroundChange(){
 		console.log('hi');
 		$this.toggleClass('purple');
 	}*/
 
-	function xy(){
-		var a = document.width;
-		var b = document.height;
-		return a+' '+b;
-	}
+
 });
