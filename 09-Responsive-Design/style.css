@@ -1,0 +1,36 @@
+html {
+  height: 100%; }
+
+body {
+  background: rgba(0, 0, 0, 0.3);
+  overflow: none;
+  height: 670px;
+  width: 1366px;
+  padding: 0;
+  margin: 0; }
+
+main {
+  height: 100%;
+  width: 100%;
+  background: orange;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style: none;
+  padding: 0 auto;
+  margin: 0; }
+
+li {
+  padding: 0 7.5px;
+  margin: 0; }
+
+header,
+footer {
+  height: 40px;
+  width: 100%;
+  background: blue; }
+
+section {
+  height: 360px;
+  width: 100%; }

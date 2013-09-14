@@ -7,10 +7,16 @@ $(window).on('mousemove', function(event) {
   var yAngle = (mouseX / width) * 90;
   $('.cube')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
   //$('.cube-no-preserve')[0].style.webkitTransform = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+  
+  var cube = document.queryselector('.cube');
+  console.log(cube);
 });
+
 
 window.onload = function(e){
 	console.log("loaded");
 	var one = document.getElementsByClassName("one");
 	one.style.backgroundColor="#000";
+    
+    
 }
