@@ -1,0 +1,98 @@
+VGA						 4:3		640			480		00.02		n/a
+SVGA					 4:3		800			600		00.17		01.03
+XGA						 4:3		1024		768		05.53		18.69
+WSVGA				 	17:10		1024		600		00.31		02.25
+XGA+					 4:3		1152		864		00.87		01.55
+WXGA				  16:9		1280		720		01.51		01.54
+WXGA				 	 5:3		1280		768		n/a			01.54
+WXGA					16:10		1280		800		04.25		12.97
+SXGA(UVGA)		 4:3		1280		960		00.72		00.72
+SXGA					 5:4		1280		1024	10.66		07.49
+HD	~				 	16:9		1360		768		02.36		02.28
+HD	~				 	16:9		1366		768		17.19		19.14
+SXGA	+				 4:3		1400		1050	00.18		n/a
+WXGA	+			 	16:10		1440		900		07.60		06.61
+UXGA					 4:3		1600		1200	00.53		n/a
+HD+					 	16:9		1600		900		06.82		03.82
+WSXG	A+		 	16:10		1680		1050	10.26		03.66
+WUXG	A			 	16:10		1920		1200	03.65		01.11
+FHD					 	16:9		1920		1080	25.04		05.09
+QWXG	A			 	16:9		2048		1152	00.13		n/a
+WQXG	A			 	16:10		2560		1600	00.19		n/a
+WQHD				 	16:9		2560		1440	00.72		00.36
+
+
+4K UHDTV			16:9		3840		2160
+8K UHDTV			16:9		7680		4320
+
+VGA						4:3			640			480		00.02		n/a
+SXGA+					4:3			1400		1050	00.18		n/a
+UXGA					4:3			1600		1200	00.53		n/a
+QWXGA				 16:9			2048		1152	00.13		n/a
+WQXGA				 16:10		2560		1600	00.19		n/a
+HD					 16:9			1366		768		17.19		19.14
+XGA						4:3			1024		768		05.53		18.69
+WXGA				 16:10		1280		800		04.25		12.97
+SXGA					5:4			1280		1024	10.66		07.49
+WXGA+				 16:10		1440		900		07.60		06.61
+FHD					 16:9			1920		1080	25.04		05.09
+HD+					 16:9			1600		900		06.82		03.82
+WSXGA+			 16:10		1680		1050	10.26		03.66
+*/
+
+/*
+
+// -- Aspect Ratios -- //
+	
+Standard Aspect 		Wide Aspect		Wide Aspect
+(4:3, 5:4)					16:9 					16:10
+1024:768*1						
+1280:1024						1280:720*			1280:800
+										1366:768*7
+																	1440:900*6
+1600:1200						1600:900			1600:1024
+																	1680:1050
+1920:1440						1920:1080*		1920:1200@3
+2048:1536*5					2048:1152			
+										2560:1440*2		2560:1600*4@2
+																	2880:1800*3 
+										3840:2160@1		3840:2400
+										7680:4320
+
+
+
+*2: Apple iMac 27inch
+*3: Apple Macbook Pro Retina 15inch
+*4: Apple Macbook Pro Retina 13inch
+*5: Apple iPad 3rd Gen
+*6: Apple Macbook Air 13inch (Post 2010)
+*7: Apple Macbook Air 11inch
+
+@1: UHDTV 2160p
+@2: Nexus 10 Tablet
+@3: Nexus 7 Tablet
+
+*/
+
+
+// -- Android -- //
+
+http://developer.android.com/guide/practices/screens_support.html
+xlarge: 960dp x 720dp
+large: 	640dp x 480dp
+normal: 470dp x 320dp
+small: 	426dp x 320dp
+
+http://developer.android.com/about/dashboards/index.html
+				ldpi	mdpi	tvdpi	hdpi	xhdpi	xxhdpi	Total
+Small		9.5%																	9.5%
+Normal	0.1%	15.7%				33.6%	23.1%	7.1%		79.6%
+Large		0.6%	3.4%	1.2%	0.4%	0.5%					6.1%
+Xlarge				4.4%				0.3%	0.1%					4.8%
+Total		10.2%	23.5%	1.2%	34.3%	23.7%	7.1%
+
+http://developer.android.com/design/style/iconography.html
+MDPI: 	160dpi
+HDPI:		240dpi
+XHDPI:	320dpi
+XXHDPI:	380dpi

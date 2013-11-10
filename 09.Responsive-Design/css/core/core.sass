@@ -1,0 +1,129 @@
+// *************************************
+//
+//  09.Responsive-Design
+//
+//  Author: Denis Tsoi
+//  
+//  core.sass  
+//
+// *************************************
+
+//--------------------------------------
+//  Reset
+//--------------------------------------
+
+@import "reset.css"
+
+//--------------------------------------
+//  Settings
+//--------------------------------------
+
+
+
+// ----- Colors ----- //
+
+$gray: rgba(0,0,0,.3) 
+$white: #fff
+$red: red
+$blue: blue
+$orange: orange
+
+// ----- Fonts ----- //
+$font-size: 14px
+$font-color: $white
+
+// ----- Properties ----- //
+$base-width: 100%
+$base-width-px: 1366px
+$base-height: 100%
+$base-height-px: 768px
+
+//--------------------------------------
+//  Helpers
+//--------------------------------------
+
+@mixin padding-margin($padding: 0, $margin: 0)
+  padding: $padding
+  margin: $margin
+
+
+//--------------------------------------
+//  Base
+//--------------------------------------
+
+*
+  -webkit-box-sizing: border-box
+
+// HTML
+html
+  height: $base-height
+
+// Body
+body
+  background: $gray
+  // overflow: hidden
+  height: $base-height-px
+  width: $base-width-px
+  @include padding-margin()
+
+// 'Main' html tag - content
+main
+  height: 430px
+  width: $base-width
+  @include padding-margin()
+
+ul
+  list-style: none
+  @include padding-margin
+
+li
+  @include padding-margin(0 7.5px, 0)
+
+header,
+footer
+  position: relative
+  height: 120px
+  width: $base-width
+  background: blue
+
+section
+  background: #333333
+  display: block
+  width: $base-width
+
+// base height: 768px 
+// window height: 742px
+
+// viewport height: 670px (document.documentElement.clientHeight)
+
+
+//--------------------------------------
+//  Content
+//--------------------------------------
+
+//--------------------------------------
+//  Layout
+//--------------------------------------
+header
+  background: red
+  top: 0
+
+footer
+  bottom: 0
+
+li
+
+$iPad-width: 768px
+$iPad-height: 1024px
+
+// @media screen and (min-height: $iPad-width)
+//   section
+//     background: white
+//     height: 100px
+//     width: 50%
+//     border: solid 1px black
+
+
+
+//http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Devices_sorted_by_size
+//http://en.wikipedia.org/wiki/Computer_display_standard
