@@ -1,0 +1,33 @@
+body{
+  /*background-image: url("http://www.raceswami.org/css/pro/cust_stock_bg/texture_tiles_green.jpg");*/
+  background-image: url("/img/teal-felt.jpg");
+  padding: 0;
+}
+
+.table{
+  background-color: #fff;
+  background-image: url("http://dev.kingkool68.com/war/classic-playing-cards.png");
+  height: 99px;
+  margin: 10px auto;
+  width:950px;
+}
+
+/*card is h:99 w:72*/
+
+.deal{
+  background: url("http://www.avcam.org/chopshop/images/card_back.jpg");
+  height: 100px;
+  margin: 10px auto;
+  width: 100px;
+}
+
+
+h1{
+  background: grey;
+  color: white;
+  font: 1em;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  width: 200px;
+}

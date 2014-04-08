@@ -1,0 +1,42 @@
+.container { 
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+/*   -webkit-perspective: 10; */
+}
+
+#card {
+  width: 1200p;
+  height: 400px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transition: all 2s ease-in;
+  -webkit-perspective: 50;
+/*   background: rgba(255,255,0,.3); */
+}
+
+.front {
+  position: absolute;
+  height:350px;
+  width: 1280px;
+}
+.front {
+  background: url('http://www.cloudreach.com/media/resources/companies_logo/imagination_logo.png');
+  background-size: 100%;
+  -webkit-transform: rotateY(0deg);
+  transition: all 2s ease-in;
+}
+.front:hover{
+/*   -webkit-transform: rotateY(180deg); */
+  -webkit-transform: rotate3d(1,0,0, 180deg) rotate3d(0,1,0,-180deg) rotate3d(0,0,1,270deg);
+/*   -webkit-transform: rotateX(360deg) rotateY(-360deg) rotateZ(360deg); */
+/*   -webkit-transform: scaleX(2) scaleY(2); */
+  transition: all 2s ease-in;
+}
+
+.front {
+  -webkit-transform: rotate3d(1,0,0, 0deg) rotate3d(0,1,0,0deg) rotate3d(0,0,1,0deg);
+  top: 0;
+  left: 0;
+}
+
