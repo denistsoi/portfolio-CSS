@@ -1,6 +1,0 @@
-Relativism
-===
-###bug
-###10-07-2013
-1. :hover is a bit buggy - doesn't highlight unless mouse is entirely off div
-	Q: should I investigate via z-index instead?

@@ -1,13 +1,12 @@
--portfolio-CSS
+#portfolio-CSS
 ==============
   
-Portfolio for CSS works  
-  
-###09-07-2013  
-01. Relativism  
-02. Baertling Wannabe  
-03. hexagon-bg  
-04. CSS Cube
-05. CSS Transformations  
-06. Relativisim-alt  
-07. CSS Cube-alt  
+### CSS portfolio Experiments
+
+### Installation
+
+    git clone git@github.com:denistsoi/portfolio-CSS.git
+    cd portfolio-css
+    npm install 
+    npm start
+
